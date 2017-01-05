@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This workshop will teach students to use the software, [TreeScaper](https://github.com/whuang08/TreeScaper), to analyze sets of phylogenetic trees. TreeScaper provides a set of visual and quantitative tools for exploring and characterizing the phylogenetic information contained in a tree set. These tools can be broadly categorized into three types: 
+This workshop will teach students to use the software, [TreeScaper](https://github.com/whuang08/TreeScaper), to analyze sets of phylogenetic trees. TreeScaper provides a collection of visual and quantitative tools for exploring and characterizing the phylogenetic information contained in a tree set. These tools can be broadly categorized into three types: 
 
 1. Utilities for calculating basic information about topologies and bipartitions
 
@@ -18,7 +18,7 @@ Download the binary zip file appropriate for your OS (Mac, or Linux) here:
 
 [TreeScaper](https://github.com/whuang08/TreeScaper/releases)
 
-Extract the zip and run the binary (in Linux: treescaper.sh).  You may also find the manual helpful as well.
+Extract the zip and run the binary.  You may find the manual helpful as well.
 
 ## Call for Tree Sets
 
