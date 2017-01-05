@@ -12,6 +12,14 @@ This workshop will teach students to use the software, [TreeScaper](https://gith
 
 We will explain the theory behind non-linear dimensionality reduction and community detection and how these methods can be used to discover structure in tree sets indicative of various evolutionary scenarios.  A typical analysis pipeline will be demonstrated on a simple simulated dataset and on an empirical data set.  Both data sets will demonstrate the detection of evolutionary phenomena of broad interest to phylogeneticists.  Students will also be encouraged to bring their own datasets and time during the workshop will be devoted to implementing the analysis pipeline demonstrated in class and discussing the structure in the data that was found.
 
+## Download software
+
+Download the binary zip file appropriate for your OS (Mac, or Linux) here:
+
+[TreeScaper](https://github.com/whuang08/TreeScaper/releases)
+
+Extract the zip and run the binary (in Mac: treescaper.dmg, in Linux: treescaper.sh).  You may also find the manual helpful as well.
+
 ## Call for Tree Sets
 
 TreeScaper is particularly useful in identifying distinct clusters of trees within a tree set.  This structure may be indicative of a host of evolutionary phenomena, such as:
@@ -28,11 +36,3 @@ Since we have a small group, I should be able to work with each of you to ensure
 Pleases ensure that the tree set does not contain more than a few thousand trees.  Larger tree set will be too computationally intensive too analyze during the workshop. 
 
 At the moment, TreeScaper cannot analyze trees with non-overlapping taxa.  Please make sure that every tree has the same set of taxa.  You should be able to prune your trees down so that this is the case.  If you are having trouble doing this, let me know and I have a script that will do this.  If you know of a tree-to-tree distance that can handle non-overlapping taxa, you can supply me with the distance matrix and we can use this for many of the analyses in TreeScaper.
-
-## Download software
-
-Download the binary zip file appropriate for your OS (Mac, or Linux) here:
-
-[TreeScaper](https://github.com/whuang08/TreeScaper/releases)
-
-Extract the zip and run the binary (in Mac: treescaper.dmg, in Linux: treescaper.sh).  You may also find the manual helpful as well.
