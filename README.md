@@ -18,7 +18,7 @@ Download the binary zip file appropriate for your OS (Mac, or Linux) here:
 
 [TreeScaper](https://github.com/whuang08/TreeScaper/releases)
 
-Extract the zip and run the binary (in Mac: treescaper.dmg, in Linux: treescaper.sh).  You may also find the manual helpful as well.
+Extract the zip and run the binary (in Linux: treescaper.sh).  You may also find the manual helpful as well.
 
 ## Call for Tree Sets
 
