@@ -1,6 +1,6 @@
 ---
 title: 'TreeScaper Workshop Activity 1: Non-Linear Dimensionality Reduction'
-author: "Jeremy Ash"
+author: "Jeremy Ash, Jeremy M. Brown, David Morris, Guifang Zhou, Wen Huang, Melissa Marchand, Paul Van Dooren, Kyle A. Gallivan, and Jim Wilgenbusch"
 date: "January 5, 2017"
 bibliography: MyCollection.bib
 output: pdf_document
