@@ -18,7 +18,11 @@ Download the binary zip file appropriate for your OS (Mac, or Linux) here:
 
 [TreeScaper](https://github.com/whuang08/TreeScaper/releases)
 
-Extract the zip and run the binary.  You may find the manual helpful as well.
+We will be using a pre-compiled version of TreeScaper with a graphical user interface (GUI), which requires no special installation steps. Just extract the zip and run the binary.  You may find the manual helpful as well.
+
+*One important note*
+
+The default security settings on current versions of Mac OS X do not allow users to open applications that have been downloaded outside the App Store with a simple double-click. Instead, you will need to hold down control and single-click on the TreeScaper app, then select “Open”. When asked if you are sure, select “Open” again.
 
 ## Call for Tree Sets
 
@@ -28,6 +32,7 @@ TreeScaper is particularly useful in identifying distinct clusters of trees with
 + Horizontal Gene Transfer
 + Hybridization
 + Incomplete Lineage Sorting
++ Migration
 
 It may also indicate stochastic and/or systematic error.  If you have tree sets for which you expect these type of phenomena, or that you would like to analyze in TreeScaper for any reason, you can email the tree set prior to the workshop to **jrash@ncsu.edu**.  Please supply the tree set as a nexus file with a TREES block and a translate command.  An example can be seen [here](https://github.com/ssb2017/treescaper/blob/master/data/1000bp1L.nex).
 
