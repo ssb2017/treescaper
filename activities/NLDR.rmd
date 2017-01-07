@@ -1,8 +1,8 @@
 ---
 title: 'TreeScaper Workshop Activity 1: Non-Linear Dimensionality Reduction'
-author: "Jeremy Ash, Jeremy M. Brown, David Morris, Guifang Zhou, Wen Huang, Melissa Marchand, Paul Van Dooren, Kyle A. Gallivan, and Jim Wilgenbusch"
-date: "January 5, 2017"
-bibliography: MyCollection.bib
+author: "Jeremy Ash"
+date: "January 8, 2017"
+bibliography: TreeScaper_workshop.bib
 output: pdf_document
 ---
 
@@ -24,7 +24,33 @@ Much of TreeScaper's functionality requires calculating distances between trees,
 
 ## NLDR
 
-One way to visually explore tree sets is to plot a 2- or 3-dimensional representation of treespace using non-linear dimensionality reduction (NLDR). This approach was first suggested for the visualization of phylogenetic trees by Amenta and Klingner  (2002) and Hillis et al. (2005), and recently extended by Wilgenbusch et al. (2016). The general idea behind NLDR is to find a lower dimensional representation of the relationships among trees that best preserves the true distances between them. TreeScaper implements several different methods for calculating tree-to-tree distances [e.g., Robinson-Foulds (RF) distances, matching distances, and subtree-prune-regraft (SPR) distances], several stress functions to assess how the original tree-to-tree distances should be optimally represented in lower dimensional space [e.g., Normalized stress, Kruskal-1 stress, Sammon's nonlinear mapping (NLM) stress, and Curvilinear Components Analysis (CCA) stress], and several optimization algorithms for finding the best low-dimensional representation given a chosen stress function [e.g., Gauss-Seidel-Newton, stochastic gradient descent, and simulated annealing]. 
+One way to visually explore tree sets is to plot a 2- or 3-dimensional representation of treespace using non-linear dimensionality reduction (NLDR). This approach was first suggested for the visualization of phylogenetic trees by Amenta and Klingner [-@Amenta2002] and Hillis et al. [-@Hillis2005], and recently extended by Wilgenbusch et al. [-@Wilgenbusch2016]. The general idea behind NLDR is to find a lower dimensional representation of the relationships among trees that best preserves the true distances between them. 
+
+TreeScaper implements several different methods for calculating tree-to-tree distances such as:
+
++ Robinson-Foulds (RF) distances [@Robinson1979; @Robinson1981]
+
++ Matching distances [@Bogdanowicz2012; @Bogdanowicz2013] 
+
++ Subtree-prune-regraft (SPR) distances [@Whidden2015]]
+
+It uses several stress functions to assess how the original tree-to-tree distances should be optimally represented in lower dimensional space such as:
+
++ Normalized stress
+
++ Kruskal-1 stress [@Kruskal1964]
+
++ Sammon's nonlinear mapping (NLM) stress [@Sammon1969]
+
++ Curvilinear Components Analysis (CCA) stress [@Demartines1997]]
+
+and several optimization algorithms for finding the best low-dimensional representation given a chosen stress function such as:
+
++ Gauss-Seidel-Newton
+
++ Stochastic gradient descent
+
++ Simulated annealing 
 
 # Practical: Visualizing a Squamate mtDNA Tree Set
 
@@ -34,7 +60,7 @@ First, to get an idea of what tree space looks like for this tree set, we will v
 
 Download the [github repository](https://github.com/ssb2017/treescaper).  In the top right corner of the github page there is a button that reads *clone or download*. Click this and download the repository.  The data subdirectory will contain the tree set files we will work with during the tutorials. The tree set we will be working with is called [squamates.nex](https://github.com/ssb2017/treescaper/blob/master/data/squamates.nex).  
 
-These data consist of 1,300 trees sampled from individual Bayesian analyses of 13 mitochondrial protein-coding genes in squamates (Castoe et al. 2009). Each tree was sampled from the posterior distribution of one gene (ie. one hundred trees were sampled from each of the 13 posterior distributions).
+These data consist of 1,300 trees sampled from individual Bayesian analyses of 13 mitochondrial protein-coding genes in squamates [@Castoe2009]. Each tree was sampled from the posterior distribution of one gene (ie. one hundred trees were sampled from each of the 13 posterior distributions).
 
 Open the tree set file in a text editor of your choice.  The file is in standard NEXUS format with a tree block and a translate command.  TreeScaper will not have problems parsing a NEXUS file with a TREES block, but a translate command *IS* necessary.
 
@@ -136,7 +162,7 @@ In the main dropdown menu, select **Dimension Estimation**.  Select **Maximum Li
 
 ![Dimensionality estimation of the Squamate mtDNA tree set using the Maximum Likelihood estimator](SquamateDimEst.JPG)
 
-The maximum likelihood estimate of the intrinsic dimensionality is affected by the number of k-nearest neighbors considered for each data point.  The common approach to this problem is to estimate the dimensionality over a range of values of k and then average the dimension estimates [@Levina2000].  Levina and Bickel recommend plotting k versus the intrinsic dimensionality estimate and finding a range of small values of k for which the plot is reasonably flat [@Levina2000].  Click **Plot analysis result**.  You should see the plot in Figure 2. On the x-axis is the value of k and on the y axis is the estimate of intrinisic dimensionality. Every number from 1 to the maximal number of k we set previously was used to compute the intrinsic dimensionality.  
+The maximum likelihood estimate of the intrinsic dimensionality is affected by the number of k-nearest neighbors considered for each data point.  The common approach to this problem is to estimate the dimensionality over a range of values of k and then average the dimension estimates [@Levina].  Levina and Bickel recommend plotting k versus the intrinsic dimensionality estimate and finding a range of small values of k for which the plot is reasonably flat [-@Levina].  Click **Plot analysis result**.  You should see the plot in Figure 2. On the x-axis is the value of k and on the y axis is the estimate of intrinisic dimensionality. Every number from 1 to the maximal number of k we set previously was used to compute the intrinsic dimensionality.  
 
 We choose to take the range of k from 10 to 20.  The dimensionality estimated should be 14.23.  This implies that a projection on a 15 dimensional manifold would result in an accurate representation of the data. We conclude that we should visualize the tree set in 3 dimensions to obtain a more accurate representation.
 
@@ -218,7 +244,9 @@ The plots demonstrate that NLDR with Normalized stress mostly outperforms other 
 
 ![One rotation of the squamate mitochondrial gene trees projected into 3D using Normalized stress.  Each set of gene trees are represented as a convex hull.](Squamate3D_CH_normalized.JPG)
 
+\pagebreak
 
+# References
 
 
 
