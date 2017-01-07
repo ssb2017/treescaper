@@ -1,13 +1,10 @@
-loading all parameters
-unweighted rooted trees
-Successfully read 106 trees from file: all_trees.nex.
 Unique bipartition number: 11
 Translation of taxa:
 Sbay , 1
 Skud , 2
 Smik , 3
 Scer , 4
-Spar; , 5
+Spar , 5
 bipartition 1 : 01011, appear times: 1
 bipartition 2 : 11000, appear times: 34
 bipartition 3 : 01111, appear times: 62
@@ -19,19 +16,19 @@ bipartition 8 : 11011, appear times: 12
 bipartition 9 : 00111, appear times: 75
 bipartition 10 : 11101, appear times: 1
 bipartition 11 : 01100, appear times: 2
-successfully computed bipartitation matrix.
-Output bipartition matrix in list format to all_trees_unweighted_bipartition.out
-Successfully computed covariance matrix of bipartition.
-Successfully printed Covariance Matrix matrix!
-Using lambda+ 0.03, lambda- 0
-network has 5 nodes, 25 links, 
-Value of modularity:0.420819
+Successfully computed bipartition matrix.
+
+
+Successfully detected communities of Covariance Matrix by the Constant Potts Model!
+
+Using lambda+ -0.07, lambda- 0
+Network has 5 nodes, 25 links, 
+Value of modularity:0.982918
 Number of communities: 2
 Community 1 includes nodes: 1,7,
 Community 2 includes nodes: 2,3,8,
 Free node index:
 0, 4, 5, 6, 9, 10, 
-Output community results to file: all_trees_Covariance Matrix_community_results.out
-Successfully detected communities of Covariance Matrix by model: CPM with high freq. bound:.95, low freq. bound:.05!
-Lambda positive: {1: 0.03, }
-Lambda negative: {1: 0, }
+Output community results to file: /home/vestige/Documents/BrownLabJash/TreeScaperEmpiricalData/NaklehFix/Parsimony/CPM/all_trees_rooted_unweighted_Covariance_Matrix_community_manual_results.out
+
+Successfully detected communities of Covariance Matrix by the Constant Potts Model!
