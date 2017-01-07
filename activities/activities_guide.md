@@ -5,14 +5,14 @@
 The [activity guide](https://github.com/ssb2017/treescaper/blob/master/activities/NLDR.pdf).
 
 There is also an [appendix](https://github.com/ssb2017/treescaper/blob/master/docs/appendix_nldr.pdf).
-with more details on the methods (NLDR, intrinsic dimensionality, etc) if you are interested.
+with more details on the methods (NLDR, intrinsic dimensionality, etc) if you are interested. This appendix is from Wilgenbusch et al (2016).
 
 ## Part 2: Community Detection Methods
 
 The [activity guide](https://github.com/ssb2017/treescaper/blob/master/activities/NLDR.pdf).
 
 There is also an [appendix](https://github.com/ssb2017/treescaper/blob/master/docs/appendix_com_detection.pdf) 
-with more details on the community detection methods if you are interested. This appendix is from Wilgenbusch et al (2016).
+with more details on the community detection methods if you are interested. 
 
 ## Additional exercises
 
