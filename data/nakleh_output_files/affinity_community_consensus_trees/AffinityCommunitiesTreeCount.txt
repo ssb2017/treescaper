@@ -1,0 +1,11 @@
+AffinityCom1.nex	62	57.94% of trees
+AffinityCom2.nex	2	1.87% of trees
+AffinityCom3.nex	11	10.28% of trees
+AffinityCom4.nex	17	15.89% of trees
+AffinityCom5.nex	3	2.80% of trees
+AffinityCom6.nex	2	1.87% of trees
+AffinityCom7.nex	1	0.93% of trees
+AffinityCom8.nex	4	3.74% of trees
+AffinityCom9.nex	1	0.93% of trees
+AffinityCom10.nex	2	1.87% of trees
+AffinityCom11.nex	1	0.93% of trees
