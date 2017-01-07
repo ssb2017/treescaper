@@ -1,0 +1,36 @@
+Output community results to file: /home/vestige/Documents/BrownLabJash/TreeScaperEmpiricalData/YeastData/goldman_yeast_unrooted_unweighted_Covariance_Matrix_community_auto_results.out and /home/vestige/Documents/BrownLabJash/TreeScaperEmpiricalData/YeastData/goldman_yeast_unrooted_unweighted_Covariance_Matrix_communities_auto_plateaus.out
+
+Successfully detected communities of Covariance Matrix by the Constant Potts Model!
+
+Using lambda+ 0.07, lambda- 0
+Network has 27 nodes, 729 links, 
+Value of modularity:0.127635
+Number of communities: 23
+Community 1 includes nodes: 1,
+Community 2 includes nodes: 3,
+Community 3 includes nodes: 4,
+Community 4 includes nodes: 6,
+Community 5 includes nodes: 9,
+Community 6 includes nodes: 19,
+Community 7 includes nodes: 20,
+Community 8 includes nodes: 22,
+Community 9 includes nodes: 25,
+Community 10 includes nodes: 8,28,52,
+Community 11 includes nodes: 29,
+Community 12 includes nodes: 30,
+Community 13 includes nodes: 36,
+Community 14 includes nodes: 37,
+Community 15 includes nodes: 39,
+Community 16 includes nodes: 49,
+Community 17 includes nodes: 53,
+Community 18 includes nodes: 0,54,55,
+Community 19 includes nodes: 58,
+Community 20 includes nodes: 60,
+Community 21 includes nodes: 65,
+Community 22 includes nodes: 69,
+Community 23 includes nodes: 71,
+Free node index:
+2, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 23, 24, 26, 27, 31, 32, 33, 34, 35, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 56, 57, 59, 61, 62, 63, 64, 66, 67, 68, 70, 
+Output community results to file: /home/vestige/Documents/BrownLabJash/TreeScaperEmpiricalData/YeastData/goldman_yeast_unrooted_unweighted_Covariance_Matrix_community_manual_results.out
+
+Successfully detected communities of Covariance Matrix by the Constant Potts Model!
