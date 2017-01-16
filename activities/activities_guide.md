@@ -11,7 +11,7 @@ with more details on the methods (NLDR, intrinsic dimensionality, etc) if you ar
 
 The [activity guide](https://github.com/ssb2017/treescaper/blob/master/activities/community_detection.pdf).
 
-There is also an [appendix](https://github.com/ssb2017/treescaper/blob/master/docs/appendix_com_detection.pdf) 
+There is also an [appendix](https://github.com/ssb2017/treescaper/blob/master/docs/appendix_comunity_detection.pdf) 
 with more details on the community detection methods if you are interested. 
 
 ## Additional exercises
