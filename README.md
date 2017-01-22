@@ -24,6 +24,10 @@ We will be using a pre-compiled version of TreeScaper with a graphical user inte
 
 The default security settings on current versions of Mac OS X do not allow users to open applications that have been downloaded outside the App Store with a simple double-click. Instead, you will need to hold down control and single-click on the TreeScaper app, then select “Open”. When asked if you are sure, select “Open” again.
 
+## Activities
+
+See the [activities guide](https://github.com/ssb2017/treescaper/blob/master/activities/activities_guide.md).
+
 ## Call for Tree Sets
 
 TreeScaper is particularly useful in identifying distinct clusters of trees within a tree set.  This structure may be indicative of a host of evolutionary phenomena, such as:
